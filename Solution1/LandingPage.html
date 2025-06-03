@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>demande information</title>
+</head>
+<body>
+    <wrapper>
+        <div class="container">
+            <form action="action_page.php">
+
+                <label for="fname">Nom</label>
+                <input type="text" id="fname" name="Nom" placeholder="Nom de famille">
+
+                <label for="lname">Prénom</label>
+                <input type="text" id="lname" name="Prénom" placeholder="Prénom">
+
+                <label for="pnum">Téléphone</label>
+                <input type="number" id="pnum" name="Numéro Téléphone" placeholder="Numéro Téléphone" />
+
+                <label for="madd">Mail</label>
+                <input type="email" id="madd" name="Adresse mail" placeholder="Adresse mail" />
+
+                <label for="drdv">Date RDV</label>
+                <input type="date" id="drdv" name="Date RDV" placeholder="Date rdv" />
+
+                <label for="hrdv">Heure RDV</label>
+                <input type="time" min="00.00" max="23.59" id="hrdv" name="Heure RDV" placeholder="Heure RDV"/>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    </wrapper>
+</body>
+</html>
